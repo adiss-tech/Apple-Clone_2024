@@ -6,7 +6,7 @@ import classes from './Product.module.css'
 import Loader from '../Loader/Loader'
 
 function Product() {
-    const [products, setProducts] = useState([])
+    const [product, setProducts] = useState([])
     const [isLoading, setIsLoading] = useState(false)
     useEffect(() => {
         axios
@@ -27,7 +27,7 @@ function Product() {
        {isLoading? (<Loader />) : (
           
         <section className={classes.products_container}>
-          {products?.map((singleProduct) => {
+          {product?.map((singleProduct) => {
             return (
               <ProductCard renderAdd={true} products={singleProduct} key={singleProduct.id} />
             );
