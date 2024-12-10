@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import classes from './Header.module.css'
+import classes from "./header.module.css";
 
 function LowerHeader() {
   return (
@@ -20,4 +20,4 @@ function LowerHeader() {
   );
 }
 
-export default LowerHeader
+export default LowerHeader;
