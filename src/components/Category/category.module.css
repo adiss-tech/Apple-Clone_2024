@@ -60,6 +60,6 @@
 
 @media screen and (max-width: 1440px) {
   .category {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
   }
 }
