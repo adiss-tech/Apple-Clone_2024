@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .category {
+  .category_container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
